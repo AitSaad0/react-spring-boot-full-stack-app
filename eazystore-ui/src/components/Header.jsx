@@ -1,4 +1,4 @@
-import { FontAwsomeIcon } from "@fortawesome/react-fontawesome";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {faShoppingBasket, faTags} from "@fortawesome/free-solid-svg-icons"
 
 const Header = () => {
@@ -6,7 +6,7 @@ const Header = () => {
         <header className="header">
             <div className="container">
                 <a href="/" className="link">
-                    <FontAwsomIcon icon={faTags} className="fa-icon"/>
+                    <FontAwesomeIcon icon={faTags} className="fa-icon"/>
                     <span className="brand-title">Eazy Stickers</span>
                 </a>
                 <nav className="nav"></nav>
@@ -25,7 +25,7 @@ const Header = () => {
                     </li> 
                     <li>
                         <a href="/cart" className="nav-link"> 
-                            <FontAwsomeIcon icon={faShoppingBasket}/>
+                            <FontAwesomeIcon icon={faShoppingBasket}/>
                         </a>
                     </li> 
                 </ul>
